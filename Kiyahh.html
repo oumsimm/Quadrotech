@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Khia Gambalan | E-Portfolio</title>
+  <style>
+    body {
+      font-family: "Georgia", serif;
+      margin: 0;
+      padding: 0;
+      background-color: #ffffff;
+      color: #333;
+    }
+
+    /* Header */
+    header {
+      background: linear-gradient(to right, #b8860b, #ffd700);
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 50px 20px;
+      text-align: left;
+    }
+
+    header img {
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      border: 4px solid white;
+      object-fit: cover;
+      margin-right: 30px;
+      box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+    }
+
+    header .header-text {
+      max-width: 600px;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin: 0;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      margin-top: 10px;
+    }
+
+    /* Navigation */
+    nav {
+      background: #fff;
+      text-align: center;
+      padding: 10px 0;
+      border-bottom: 2px solid #ffd700;
+    }
+
+    nav a {
+      color: #b8860b;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #333;
+    }
+
+    /* Sections */
+    section {
+      padding: 50px 15%;
+      border-bottom: 1px solid #eee;
+    }
+
+    section h2 {
+      color: #b8860b;
+      margin-bottom: 20px;
+      font-size: 2rem;
+      border-bottom: 2px solid #ffd700;
+      display: inline-block;
+      padding-bottom: 5px;
+    }
+
+    .experience, .education, .skills {
+      margin-bottom: 20px;
+    }
+
+    .experience h3, .education h3 {
+      margin: 5px 0;
+      color: #333;
+    }
+
+    .experience p, .education p {
+      margin: 5px 0;
+      font-style: italic;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    ul li {
+      margin: 8px 0;
+      padding-left: 15px;
+      position: relative;
+    }
+
+    ul li::before {
+      content: "•";
+      color: #b8860b;
+      font-weight: bold;
+      position: absolute;
+      left: 0;
+    }
+
+    /* Footer */
+    footer {
+      background: #b8860b;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    footer a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+    /* Responsive header */
+    @media (max-width: 768px) {
+      header {
+        flex-direction: column;
+        text-align: center;
+      }
+      header img {
+        margin-right: 0;
+        margin-bottom: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <!-- Replace profile.jpg with your actual image filename -->
+    <img src="khia_resume.jpg" alt="Khia Gambalan">
+    <div class="header-text">
+      <h1>Khia Gambalan</h1>
+      <p>Aspiring IT Professional | Writer | Storyteller | Leader</p>
+    </div>
+  </header>
+
+  <!-- NAVIGATION -->
+  <nav>
+    <a href="#about">About</a>
+    <a href="#education">Education</a>
+    <a href="#experience">Experience</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      A writer, storyteller, and aspiring beauty queen, a passionate leader who thrives on inspiring 
+      and empowering others. With a creative mind and a heart for advocacy, she uses her voice to spark 
+      meaningful conversations and create positive change. Balancing academics, leadership, and personal 
+      growth, she embodies ambition, grace, and resilience.
+    </p>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education">
+    <h2>Education</h2>
+    <div class="education">
+      <h3>Bachelor of Science in Information Technology</h3>
+      <p>STI West Negros University | 2022 – 2026</p>
+    </div>
+    <div class="education">
+      <h3>STEM-Allied Medical Health</h3>
+      <p>University of Negros Occidental Recoletos | 2020 – 2022</p>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience">
+    <h2>Experience</h2>
+
+    <div class="experience">
+      <h3>Enrollment Data Entry | STI West Negros University</h3>
+      <p>2026</p>
+      <p>Handled student admission records, ensuring accuracy and efficiency in data entry during enrollment season.</p>
+    </div>
+
+    <div class="experience">
+      <h3>Editor-in-Chief | CICT Press</h3>
+      <p>2024 – 2026</p>
+      <p>Led the student press organization, supervised publications, and empowered a team of writers and editors to produce quality campus news and features.</p>
+    </div>
+
+    <div class="experience">
+      <h3>Associate Editor | CICT Press</h3>
+      <p>2023 – 2024</p>
+      <p>Assisted in editing articles, layout planning, and ensuring the publication’s content maintained accuracy and professional standards.</p>
+    </div>
+
+    <div class="experience">
+      <h3>Board Member | PsG, CICT</h3>
+      <p>2022 – 2023</p>
+      <p>Actively participated in student governance, helped organize academic and leadership programs, and represented the student body in college initiatives.</p>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>Leadership</li>
+      <li>Oral and Written Communication</li>
+      <li>Adaptability</li>
+      <li>Analytical Thinking</li>
+      <li>Content Creation</li>
+      <li>Research Expertise</li>
+      <li>Project Management</li>
+    </ul>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <p><strong>Phone:</strong> 0967-380-3303</p>
+    <p><strong>Email:</strong> <a href="mailto:gambalankhia@gmail.com">gambalankhia@gmail.com</a></p>
+    <p><strong>Address:</strong> Barangay Minoyan, Murcia, 6129</p>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2025 Khia Gambalan | E-Portfolio</p>
+    <p>
+      <a href="#about">About</a> |
+      <a href="#education">Education</a> |
+      <a href="#experience">Experience</a> |
+      <a href="#skills">Skills</a> |
+      <a href="#contact">Contact</a>
+    </p>
+  </footer>
+
+</body>
+</html>
